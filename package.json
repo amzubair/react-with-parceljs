@@ -1,0 +1,32 @@
+{
+  "name": "react-with-parceljs",
+  "version": "1.0.0",
+  "description": "reactjs boilerplate application with parceljs",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amzubair/react-with-parceljs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amzubair/react-with-parceljs/issues"
+  },
+  "homepage": "https://github.com/amzubair/react-with-parceljs#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.2.0",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "parcel-bundler": "^1.0.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
